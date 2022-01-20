@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Practice-Project.iml" filepath="$PROJECT_DIR$/.idea/Practice-Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap06-OOP-source/chap06-OOP-source.iml" filepath="$PROJECT_DIR$/chap06-OOP-source/chap06-OOP-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap10-date-time-formatting-source/chap10-date-time-formatting-source.iml" filepath="$PROJECT_DIR$/chap10-date-time-formatting-source/chap10-date-time-formatting-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap11-collection-framework-source/chap11-collection-framework-source.iml" filepath="$PROJECT_DIR$/chap11-collection-framework-source/chap11-collection-framework-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap13-thread-source/chap13-thread-source.iml" filepath="$PROJECT_DIR$/chap13-thread-source/chap13-thread-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap14-lamda-and-stream-source/chap14-lamda-and-stream-source.iml" filepath="$PROJECT_DIR$/chap14-lamda-and-stream-source/chap14-lamda-and-stream-source.iml" />
+    </modules>
+  </component>
+</project>
