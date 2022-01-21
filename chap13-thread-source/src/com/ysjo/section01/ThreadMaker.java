@@ -2,7 +2,7 @@ package com.ysjo.section01;
 
 public class ThreadMaker extends Thread{
 
-    protected ThreadSynchronizedTest tst = null;
+    protected ThreadSynchronizedTest tst;
 
     public ThreadMaker(ThreadSynchronizedTest tst) {
         this.tst = tst;
@@ -10,7 +10,7 @@ public class ThreadMaker extends Thread{
 
     public void run() {
         for(int i = 0; i < 10; i++) {
-            tst.setMemory(i);
+            tst.setMemory(i);   //피보나치로 증가
         }
     }
 }
