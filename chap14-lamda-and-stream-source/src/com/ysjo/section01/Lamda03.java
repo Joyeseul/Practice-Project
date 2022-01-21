@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Lamda03 {
     public static void main(String[] args) {
+
         /* 메소드 참조 : 람다 표현식이 단 하나의 메소드만을 호출하는 경우,
         *           해당 람다식에서 불필요한 매개변수를 제거하고 사용할 수 있게 함 */
-
         List<String> names = new ArrayList<>();
         names.add("김골퍼");
         names.add("이골퍼");
