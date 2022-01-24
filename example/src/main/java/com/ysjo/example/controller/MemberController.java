@@ -17,12 +17,17 @@ import java.util.List;
  * 참고자료
  * https://github.com/jojoldu/blog-code/blob/master/swagger/src/main/java/com/example/SwaggerApplication.java
  *
- * Swagger 기능들 참고자료
+ * Swagger 기능들 참고자료 (다양한 기능들을 적용해보는 듯)
  * https://kim-jong-hyun.tistory.com/49
  *
  * Swagger 확인페이지
  * 서버를 실행시키고, http://localhost:8080/swagger-ui.html
  *
+ * 게시글 조회로 Swagger 적용
+ * https://linked2ev.github.io/gitlog/2020/01/05/springboot-6-API%EB%AC%B8%EC%84%9C-swagger-%EC%A0%81%EC%9A%A9/
+ *
+ * 사칙연산으로 Swagger 적용
+ * https://ozofweird.tistory.com/entry/Spring-Boot-Swagger-API-%EB%AC%B8%EC%84%9C-%EC%9E%90%EB%8F%99%ED%99%94
  * */
 @AllArgsConstructor
 @RestController
