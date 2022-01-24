@@ -17,10 +17,10 @@ public class StreamTest04 {
         Stream<String> stream1 = Stream.of("넷", "둘", "셋", "하나");
         stream1.forEach(System.out::println);
 
-        /* reduce() : 첫 번째와 두 번째 요소를 가지고 연산을 수행한 뒤, 그 결과와 세 번째 요소를 가지고 또다시 연산을 수행함.
+        /* reduce() : 첫 번째와 두 번째 요소를 가지고 연산을 수행한 뒤,
+        * 그 결과와 세 번째 요소를 가지고 또다시 연산을 수행함.
         * 이런 식으로 해당 스트림의 모든 요소를 소모하여 연산을 수행하고, 그 결과를 반환한다. */
         Stream<String> stream2 = Stream.of("넷", "둘", "셋", "하나");
-        Stream<String> stream3 = Stream.of("넷", "둘", "셋", "하나");
 
         Optional<String> result1 = stream2.reduce((s1, s2) -> s1 + "++" + s2);
         result1.ifPresent(System.out::println);

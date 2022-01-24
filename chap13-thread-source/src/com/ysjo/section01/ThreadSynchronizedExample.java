@@ -2,9 +2,12 @@ package com.ysjo.section01;
 
 public class ThreadSynchronizedExample {
 
+    /**
+     * https://soulduse.tistory.com/44
+     * "스레드 동기화 synchronized 에 관해서" 번역글인 듯
+     * */
     public static void main(String[] args) {
-        /* https://soulduse.tistory.com/44
-        * "스레드 동기화 synchronized 에 관해서" 번역글인 듯 */
+
         ThreadSynchronizedTest tst = new ThreadSynchronizedTest();
 
         Thread threadA = new ThreadMaker(tst);

@@ -16,16 +16,16 @@ public class Lamda03 {
 
         /* 반복문 사용 */
         for(int i = 0; i < names.size(); i++) {
-            System.out.println(names.get(i));
+            System.out.print(names.get(i) + " ");
         }
         System.out.println();
 
         /* forEach() : int i와 같은 변수 선언도 필요없이, 바로 데이터 확인 가능 */
-        names.forEach(d -> System.out.println(d));
+        names.forEach(d -> System.out.print(d + " "));
         System.out.println();
 
         /* forEach() 안쪽에서 메소드 참조 사용 */
-        names.forEach(System.out::println);
+        names.forEach(System.out::print);
         System.out.println();
     }
 }
